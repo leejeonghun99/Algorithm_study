@@ -40,6 +40,6 @@ def BFS(v):
 
 
 DFS(V - 1)
-print(rrr)
+print(' '.join(map(str, rrr)))
 BFS(V - 1)
-print(kkk)
+print(' '.join(map(str, kkk)))
